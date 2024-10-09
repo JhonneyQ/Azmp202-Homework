@@ -1,0 +1,44 @@
+.animal h1{
+    background-color: red;
+}
+.foodd p{
+    background-color: purple;
+}
+.sports h1 {
+    background-color: blue;
+}
+.life:nth-child(1){
+    color: aqua;
+}
+.game:nth-child(2){
+    color: black;
+}
+.music:nth-last-child(){
+    background-color: bisque;
+}
+.schools:nth-child(odd){
+    color: brown;
+}
+.paintballs:nth-child(even){
+    color: blueviolet;
+}
+.airsofts h1{
+    color: cornflowerblue;
+}
+.cartings p{
+    color: aquamarine;
+}
+.movie h1 {
+    background-color: darkgreen;
+}
+.serial{
+    color: cyan;
+}
+.worlds p{
+    background-color: dimgray;
+}
+.cuisins {
+    color: indigo;
+}.pcs {
+    background-color: black;
+}
