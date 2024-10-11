@@ -26,6 +26,7 @@
     transition: 0.5s;
     width: 700px;
     height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .main .class p{
     padding: 20px 50px;
@@ -64,6 +65,7 @@
     transition: 0.5s;
     width: 700px;
     height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .main .class1 p{
@@ -103,6 +105,7 @@
     transition: 0.5s;
     width: 700px;
     height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 
