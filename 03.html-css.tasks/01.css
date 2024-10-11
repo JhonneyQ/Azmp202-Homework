@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#all{
+    display: flex;
+}
+
+.class {
+    background-color: gray;
+    width: 800px;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto';
+    
+    
+}
+
+
+
+.class img{
+    width: 200px;
+    padding-top: 150px;
+    margin-bottom: 30px;
+
+}
+
+.class button{
+    background-color: rgb(28, 26, 26);
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+    width: 170px;
+    border-radius: 16px;
+    font-size: 10px;
+}
+
+.class1 {
+    background-color: bisque;
+    width: 800px;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto';
+    
+}
+
+
+
+.class1  button{
+    background-color: rgb(28, 26, 26);
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+    width: 170px;
+    border-radius: 16px;
+    font-size: 10px;
+}
+
+.class1 h1{
+    padding-top: 150px;
+}
+
+.class1 p{
+    padding: 20px 40px;
+}
+
+.class .icon{
+    padding: 20px 
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Black.woff2') format('woff2'),
+        url('Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+.class:hover{
+    width: 1000px;
+    transition: 0.7s;
+    
+}
+
+.class1:hover{
+    width: 1000px;
+    transition: 0.7s;
+    
+}
+
+
+

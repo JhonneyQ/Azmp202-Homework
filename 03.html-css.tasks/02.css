@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    text-align: center;
+    
+}
+
+.main .class{
+    background-color: darkcyan;
+    width: 600px;
+    height: 400px;
+    padding-top: 100px;
+    margin: 50px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.main .class:hover{
+    background-color: darkmagenta;
+    color: white;
+    transition: 0.5s;
+    width: 700px;
+    height: 500px;
+}
+.main .class p{
+    padding: 20px 50px;
+}
+
+.main .class i{
+    font-size: 50px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+
+.main .class button{
+    background-color: rgb(28, 26, 26);
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+    width: 250px;
+    border-radius: 16px;
+    font-size: 10px;
+}
+
+.main .class1{
+    background-color: darkcyan;
+    width: 600px;
+    height: 400px;
+    padding-top: 100px;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.main .class1:hover{
+    background-color: darkmagenta;
+    color: white;
+    transition: 0.5s;
+    width: 700px;
+    height: 500px;
+}
+
+.main .class1 p{
+    padding: 20px 50px;
+}
+
+.main .class1 i{
+    font-size: 50px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+
+.main .class1 button{
+    background-color: rgb(28, 26, 26);
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+    width: 250px;
+    border-radius: 16px;
+    font-size: 10px;
+}
+
+.main .class2{
+    background-color: darkcyan;
+    width: 600px;
+    height: 400px;
+    padding-top: 100px;
+    margin: 50px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.main .class2:hover{
+    background-color: darkmagenta;
+    color: white;
+    transition: 0.5s;
+    width: 700px;
+    height: 500px;
+}
+
+
+.main .class2 p{
+    padding: 20px 50px;
+}
+
+.main .class2 i{
+    font-size: 50px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+
+.main .class2 button{
+    background-color: rgb(28, 26, 26);
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+    width: 250px;
+    border-radius: 16px;
+    font-size: 10px;
+}

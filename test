@@ -1,0 +1,28 @@
+.class1{
+    background-color: antiquewhite;
+    
+}
+
+.class1 h1{
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 100px;
+}
+.class1 p{
+    
+    padding: 30px 200px;
+
+}
+.class1 button{
+    background-color: rgb(28, 26, 26);
+    color: white;
+    margin-top: 50px;
+    height: 30px;
+    width: 170px;
+    border-radius: 16px;
+    font-size: 10px;
+}
+
+.class1 .but{
+    margin-left: 35%;
+}
