@@ -20,10 +20,10 @@ body{
 }
 
 .main .class2{
-    padding-top: 100px;
     background-color: rgb(189, 23, 23);
     width: 200vh;
-    height: 5vh;
-    position: sticky;
+    height: 20px;
+    padding-top: 400px;
+    
     
 }
