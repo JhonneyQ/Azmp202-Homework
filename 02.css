@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main1 .main img{
+    width: 40vh;
+    height: 40vh;
+}
+
+.main1 .main{
+    position: relative;
+    
+}
+
+.main1{
+    margin: 100px 500px;
+}
+
+
+.main1 .main p{
+    position: absolute;
+    bottom: 4%;
+    background-color: white;
+    width: 60px;
+    padding: 6px;
+    text-align: center;
+}
+
+.main1 .p1{
+    color: gray;
+    font-size: 15px;
+    width: 45vh;
+}
+
+.main1 .p2{
+    font-size: 20px;
+    width: 45vh;
+}
+
+.main1 .p3{
+    font-size: 17px;
+    width: 45vh;
+}
