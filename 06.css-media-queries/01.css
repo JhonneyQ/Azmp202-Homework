@@ -3,6 +3,7 @@
     list-style: none;
 }
 
+
 .list{
     display: flex;
     justify-content: space-between;
@@ -12,6 +13,7 @@
 
 header{
     background-image: url(https://platinumlist.net/guide/wp-content/uploads/2023/03/IMG-worlds-of-adventure.webp);
+    
 }
 
 header .list i{
@@ -93,6 +95,44 @@ footer .list2 ul li a{
     color: rgb(191, 190, 190);
     font-size: 20px;
 }
+
+.contactus{
+    background-image: url(https://lh3.googleusercontent.com/proxy/bfCVG090xY3sHtjLadU1YwCG9rIt63g2Gqo1NJQ1sOIxRZsM06HXV65qqu7HdX2W_nciAPkfWE_tXitKIObpHF754DMcQEO1yg);
+    color: white;
+    padding: 100px;
+}
+
+.contactus h1{
+    margin-bottom: 30px;
+}
+
+.contactus p{
+    margin-bottom: 30px;
+}
+
+
+
+.inn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.inn .button{
+    
+}
+
+
+input{
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 200px;
+    gap: 20px;
+    
+}
+
+
 
 @media only screen and (max-width: 1023px){
     header .cont1 ul{

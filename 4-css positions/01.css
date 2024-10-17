@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+body{
+    height: 200vh;
+}
+
 .main .card{
     width: 120vh;
     height: 70vh    ;
@@ -17,10 +21,9 @@
 .main .card .box1{
     background-color: red;
     width: 10%;
-    height: 100px;
-    z-index: 3;
-    position: absolute;
-    right: 0%;
+    height: 10vh;
+    position: sticky;
+    left: 100%;
 }
 
 .main .card .box2{

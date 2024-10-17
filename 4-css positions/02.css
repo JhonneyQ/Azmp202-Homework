@@ -25,20 +25,24 @@
     width: 60px;
     padding: 6px;
     text-align: center;
+    word-wrap: wrap;
 }
 
 .main1 .p1{
     color: gray;
     font-size: 15px;
     width: 45vh;
+    word-wrap: wrap;
 }
 
 .main1 .p2{
     font-size: 20px;
-    width: 45vh;
+    width: 43vh;
+    word-wrap: wrap;
 }
 
 .main1 .p3{
     font-size: 17px;
     width: 45vh;
+    word-wrap: wrap;
 }
