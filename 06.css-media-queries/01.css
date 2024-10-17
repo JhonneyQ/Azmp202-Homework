@@ -1,0 +1,105 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: white;
+}
+
+header{
+    background-image: url(https://platinumlist.net/guide/wp-content/uploads/2023/03/IMG-worlds-of-adventure.webp);
+}
+
+header .list i{
+    display: none;
+}
+
+
+.list ul{
+    display: flex;
+    gap: 20px;
+}
+
+.list ul li a{
+    color: white;
+}
+
+.par{
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+
+.par h1{
+    margin-bottom: 18px;
+}
+
+.par button{
+    background-color: yellow;
+    border: none;
+    padding: 15px;
+}
+
+.cont2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cont2 .par1{
+    padding-top: 10px;
+} 
+
+.cont2 .par1 p{
+    margin-bottom: 20px;
+} 
+
+.row i{
+    font-size: 30px;
+}
+
+.row img{
+    width: 100%;
+}
+
+.cont3{
+    padding-top: 60px;
+}
+
+.cont3 .par2 p{
+    margin-bottom: 20px;
+}
+
+.cont4 .list2 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    padding: 50px;
+    border: 1px solid black;
+}
+
+footer .icons{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer .list2 ul li a{
+    color: rgb(191, 190, 190);
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1023px){
+    header .cont1 ul{
+        display: none;
+    }
+
+    header .list i{
+        display: flex;
+    }
+}
