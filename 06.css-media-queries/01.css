@@ -16,6 +16,7 @@ header{
     
 }
 
+
 header .list i{
     display: none;
 }
@@ -100,6 +101,8 @@ footer .list2 ul li a{
     background-image: url(https://lh3.googleusercontent.com/proxy/bfCVG090xY3sHtjLadU1YwCG9rIt63g2Gqo1NJQ1sOIxRZsM06HXV65qqu7HdX2W_nciAPkfWE_tXitKIObpHF754DMcQEO1yg);
     color: white;
     padding: 100px;
+    
+    
 }
 
 .contactus h1{
@@ -115,23 +118,60 @@ footer .list2 ul li a{
 .inn{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     margin-bottom: 20px;
+    
+
 }
 
-.inn .button{
-    
+.contactus .button{
+    background-color: yellow;
+    padding: 25px;
+    border-radius: 10px;
 }
 
 
 input{
     display: flex;
     margin: 0 auto;
-    padding: 40px 200px;
+    padding: 40px 100px;
     gap: 20px;
+    width: 100%;
+    border-radius: 10px;
     
 }
 
+.cont4 .card img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.cont4 .card h2{
+    padding: 15px 0;
+}
+
+.cont4 .card p{
+    padding-bottom: 20px;
+}
+
+.cont4 #par3{
+    padding: 50px 0; 
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.cont4 h1{
+    padding-top: 35px;
+}
+
+main{
+    text-align: center;
+}
+
+.inn textarea{
+    border-radius: 10px;
+}
 
 
 @media only screen and (max-width: 1023px){
@@ -143,3 +183,12 @@ input{
         display: flex;
     }
 }
+
+@media only screen and (max-width: 767px){
+    input{
+        width: 60%;
+        
+    }
+    
+}
+
