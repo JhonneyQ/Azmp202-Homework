@@ -1,0 +1,24 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.aa h1{
+    width: 500px;
+}
+
+.but button{
+    width: 150px;
+}
+
+.but{
+    gap: 20px;
+}
+
+.bb{
+    margin: 0 auto;
+}
+
+.cc{
+    
+}
