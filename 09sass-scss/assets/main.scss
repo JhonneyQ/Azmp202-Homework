@@ -1,11 +1,12 @@
 @import "./base/reset";
+@import "./layout/grid";
 @import "./utils/variables";
 @import "./utils/bgcolor";
 @import "./utils/mixins";
 @import "./base/typography";
 @import "./components/buttons";
-@import "./layout/grid";
 @import "./layout/header";
 @import "./pages/home";
+@import "./pages/portfolio";
 @import "./layout/footer";
 

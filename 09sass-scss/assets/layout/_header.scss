@@ -1,78 +1,85 @@
-header{
-    background-color: $bgcolor-color;
-    .container{
-        .head{
-            padding: 1rem;
-            @include theme(space-between, center);
-            .menu{
-                display: none;
-                @include for-phone-only{
-                    display: block;
-                }
-            }
-            ul{
-                @include for-phone-only{
-                    display: none;
-                }
-                @include theme(space-between, center);
-                gap: 2rem;
-                li{
-                    a{
-                        color: $gwhite-color;
-                    }
-                }
-            }
-            button{
-                @extend %button;
-                background-color: transparent;
-                border: none;
-                color: white;
-                @include for-phone-only{
-                    display: none;
-                }
-            }
-
+header {
+  background-color: $bgcolor-color;
+  .container {
+    .head {
+      padding: 1rem;
+      @include theme(space-between, center);
+      .menu {
+        display: none;
+        @include for-phone-only {
+          display: block;
         }
-        .head2{
-            @include theme(center,center);
-            @include for-phone-only{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-            }
-            
-            .par{
-                display: flex;
-                flex-direction: column;
-                row-gap: 25px;
-                p{
-                    width: 470px;
-                    color: $gwhite-color;
-                }
-                h5{
-                    color: $orange-color;
-                }
-                h1{
-                    color: white;
-                }
-                .button{
-                    button{
-                        @extend %button;
-                        background-color: $orange-color;
-                        color: white;
-                    }
-                }
-                .pfp{
-                    display: flex;
-                    color: $gwhite-color;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 15px;
-                }
-            }
+      }
+      ul {
+        @include for-phone-only {
+          display: none;
         }
-        
+        @include theme(space-between, center);
+        gap: 2rem;
+        li {
+          a {
+            color: $gwhite-color;
+          }
+        }
+      }
+      button {
+        @extend %button;
+        background-color: transparent;
+        border: none;
+        color: white;
+        @include for-phone-only {
+          display: none;
+        }
+      }
     }
+    .head2 {
+      @include theme(center, center);
+      @include for-phone-only {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .par {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        p {
+          width: 470px;
+          color: $gwhite-color;
+        }
+        h5 {
+          color: $orange-color;
+        }
+        h1 {
+          color: white;
+          width: 513px;
+        }
+        .button {
+          button {
+            @extend %button;
+            background-color: $orange-color;
+            color: white;
+          }
+        }
+        .pfp {
+          display: flex;
+          color: $gwhite-color;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+          img {
+            
+          }
+        }
+      }
+      .pic {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
 }

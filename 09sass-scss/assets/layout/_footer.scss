@@ -1,0 +1,117 @@
+footer{
+    padding: 50px;
+    background-color: $bgcolor2-color;
+    .container{
+        .foot{
+            background-color: $orange-color;     
+            
+            @include theme(center,center);
+            .fpar{
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+
+                h1{
+                    color: white;
+    
+                }
+                p{
+                    color: $gwhite-color;
+                    width: 470px;
+                }
+                button{
+                    @extend%button;
+                    background-color: white;
+                    color: black;
+                    border: none;
+                }
+            }
+        }
+    }
+    .container{
+        .foot2{
+            @include theme(space-between,center);
+            padding: 40px;
+            .aa{
+                h4{
+                    color: $darko-color;
+                    font-size: 24px;
+                    font-weight: 700;
+                    
+
+                    
+                }
+
+            }
+            .bb{
+                h5{
+                    //styleName: H5;
+                    font-family: Epilogue;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    letter-spacing: 3px;
+                    text-align: left;
+                    color: $orange-color;
+
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding-top: 15px;
+                    li{
+                        a{
+                            color: $darko-color;
+                        }
+                    }
+                }
+            }
+
+            .cc{
+                h5{
+                    //styleName: H5;
+                    font-family: Epilogue;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    letter-spacing: 3px;
+                    text-align: left;
+                    color: $orange-color;
+
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding-top: 15px;
+                    li{
+                        a{
+                            color: $darko-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .container{
+        .foot3{
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            p{
+                color: $darko-color;
+            }
+            ul{
+                display: flex;
+                gap: 35px;
+                li{
+                    a{
+                        color: $darko-color;
+                    }
+                }
+            }
+        }
+        
+    }
+}
