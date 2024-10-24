@@ -1,0 +1,50 @@
+main{
+    .sec1{
+        background-color: $bgcolor2-color;
+        padding: 2rem;
+        @include for-phone-only{
+            width: 296px;
+        }
+        .container{
+
+        }
+    }
+    .sec2{
+        background-color: $bgcolor2-color;
+        padding: 2rem;
+        .container{
+            .main2{
+                @include theme(center,center);
+                gap: 100px;
+                @include for-phone-only{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .par2{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 15px;
+                    h5{
+                        color: $orange-color;
+                    }  
+                    h1{
+                        color: $darko-color;
+                    }
+                    p{
+                        color: $darko-color;
+                    }
+                    .button{
+                        button{
+                            @extend %button;
+                            background-color: white;
+                            color: $darko-color;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
