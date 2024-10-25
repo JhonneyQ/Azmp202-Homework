@@ -5,7 +5,7 @@
 }
 
 @mixin for-phone-only {
-    @media (max-width: 700px) { @content; }
+    @media (max-width: 750px) { @content; }
   }
   @mixin for-tablet-portrait-up {
     @media (min-width: 600px) { @content; }

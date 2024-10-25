@@ -1,0 +1,106 @@
+.header3{
+    .container{
+        .head2{
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            h1{
+                color: white;
+                padding: 40px 0;
+            }
+            p{
+                font-size: 16px;
+                width: 570px;
+                text-align: center;
+                color: $gwhite-color;
+            }
+        }
+    }
+}
+
+
+main{
+    .blog-sec{
+        padding: 50px;
+        .container{
+            .blog-cards{
+                justify-content: center;
+                .blog-card{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    p{
+                        font-size: $darko-color;
+                        font-size: 20px;
+                    }
+                    h3{
+                        color: $darko-color;
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .blog-sec2{
+        padding: 50px;
+        .container{
+            .blog-cards{
+                justify-content: center;
+                .blog-card{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    p{
+                        font-size: $darko-color;
+                        font-size: 20px;
+                    }
+                    h4{
+                        color: $darko-color;
+                        font-size: 24px;
+                    }
+                }
+            }
+            button{
+                @extend%button;
+                border: none;
+                margin: 50px 45%;
+            }
+        }
+    }
+
+    .blog-sec3{
+        padding: 40px;
+        .blog-par{
+            display: flex;
+            justify-content: space-between;
+            @include for-phone-only{
+                flex-wrap: wrap;
+                justify-content: start;
+                row-gap: 30px;
+            }
+            .blog-input{
+                display: flex;
+                gap: 20px;
+                button{
+                    @extend%button;
+                    border: none;
+                }
+                input{
+                    width: 100%px;
+                    padding: 15px;
+                }
+            }
+
+        }
+    }
+}
+
+.blog-foot{
+    background-color: $orange-color;
+    .container{
+        .foot{
+            
+        }
+    }
+}
