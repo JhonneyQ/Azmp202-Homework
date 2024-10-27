@@ -249,7 +249,7 @@ h5 {
   font-weight: 400;
 }
 
-footer .container .foot .fpar button, main .sec2 .container .main2 .par2 .button button, header .container .head2 .par .button button, header .container .head button {
+main .blog-sec3 .blog-par .blog-input button, main .blog-sec2 .container button, footer .container .foot .fpar button, main .sec2 .container .main2 .par2 .button button, header .container .head2 .par .button button, header .container .head button {
   font-size: 14px;
   font-weight: 900;
   width: 154px;
@@ -269,7 +269,7 @@ header .container .head {
 header .container .head .menu {
   display: none;
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   header .container .head .menu {
     display: block;
   }
@@ -280,7 +280,7 @@ header .container .head ul {
   align-items: center;
   gap: 2rem;
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   header .container .head ul {
     display: none;
   }
@@ -293,7 +293,7 @@ header .container .head button {
   border: none;
   color: white;
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   header .container .head button {
     display: none;
   }
@@ -303,7 +303,7 @@ header .container .head2 {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   header .container .head2 {
     display: flex;
     flex-direction: column;
@@ -347,7 +347,7 @@ main .sec1 {
   background-color: rgb(253, 240, 233);
   padding: 2rem;
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   main .sec1 {
     width: 296px;
   }
@@ -362,7 +362,7 @@ main .sec2 .container .main2 {
   align-items: center;
   gap: 100px;
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   main .sec2 .container .main2 {
     display: flex;
     flex-direction: column;
@@ -390,6 +390,10 @@ main .sec2 .container .main2 .par2 .button button {
   border: none;
 }
 main .sec2 .container .main2 .pic2 img {
+  width: 100%;
+}
+
+footer .container .foot .fpic img {
   width: 100%;
 }
 
@@ -477,6 +481,94 @@ footer .container .foot .fpar button {
   border: none;
 }
 
+.header3 .container .head2 {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header3 .container .head2 h1 {
+  color: white;
+  padding: 40px 0;
+}
+.header3 .container .head2 p {
+  font-size: 16px;
+  width: 570px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6392156863);
+}
+
+main .blog-sec {
+  padding: 50px;
+}
+main .blog-sec .container .blog-cards {
+  justify-content: center;
+}
+main .blog-sec .container .blog-cards .blog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .blog-sec .container .blog-cards .blog-card p {
+  font-size: #391400;
+  font-size: 20px;
+}
+main .blog-sec .container .blog-cards .blog-card h3 {
+  color: #391400;
+  font-size: 40px;
+}
+main .blog-sec2 {
+  padding: 50px;
+}
+main .blog-sec2 .container .blog-cards {
+  justify-content: center;
+}
+main .blog-sec2 .container .blog-cards .blog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .blog-sec2 .container .blog-cards .blog-card p {
+  font-size: #391400;
+  font-size: 20px;
+}
+main .blog-sec2 .container .blog-cards .blog-card h4 {
+  color: #391400;
+  font-size: 24px;
+}
+main .blog-sec2 .container button {
+  border: none;
+  margin: 50px 45%;
+}
+main .blog-sec3 {
+  padding: 40px;
+}
+main .blog-sec3 .blog-par {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 750px) {
+  main .blog-sec3 .blog-par {
+    flex-wrap: wrap;
+    justify-content: start;
+    row-gap: 30px;
+  }
+}
+main .blog-sec3 .blog-par .blog-input {
+  display: flex;
+  gap: 20px;
+}
+main .blog-sec3 .blog-par .blog-input button {
+  border: none;
+}
+main .blog-sec3 .blog-par .blog-input input {
+  width: 100% px;
+  padding: 15px;
+}
+
+.blog-foot {
+  background-color: #EF6D58;
+}
 footer {
   padding: 50px;
   background-color: rgb(253, 240, 233);
@@ -491,6 +583,9 @@ footer .container .foot .fpar {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+}
+footer .container .foot .fpar img {
+  width: 100%;
 }
 footer .container .foot .fpar h1 {
   color: white;
