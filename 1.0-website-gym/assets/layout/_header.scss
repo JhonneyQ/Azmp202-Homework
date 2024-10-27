@@ -1,10 +1,11 @@
 header{
-  position: fixed;
-  z-index: 3;
-  width: 100%;
+  
   background-color: white;
   .container{
     .head{
+      position: fixed;
+      z-index: 3;
+      width: 100%;
       display: flex;
       justify-content: space-around;
       align-items: center;
