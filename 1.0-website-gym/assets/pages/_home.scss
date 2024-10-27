@@ -1,0 +1,189 @@
+main{
+    .home-sec1{
+        background-image: url(https://preview.colorlib.com/theme/gym/img/header-bg.jpg);
+        height: 647px;
+        padding: 30px;
+        .container{
+            .par1{
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                padding-top: 200px;
+                h1{
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+    .home-sec2{
+        padding: 70px;
+        .container{
+            .all{
+                
+                .par{
+                    text-align: center;
+                    font-size: 36px;
+                    p{
+                        font-size: 14px;
+                        color: $textgrey-color;
+                    }
+                }
+                .cards{
+                    text-align: center;
+                    .card{
+                        margin-top: 50px;
+                        padding: 40px 0;
+                        font-size: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 15px;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow:  rgb(246, 33, 75, 0.4) 0px 7px 29px 0px;;
+                        width: 30%;
+                        margin: 50px auto 0px auto;
+                        
+                        p{
+                            max-width: 229px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .home-sec3{
+        background-color: $bgred-color;
+        padding: 55px;
+        .container{
+            .weight{
+
+                .par2{
+                    text-align: center;
+                    color: white;
+                    padding: 20px 0;
+                    h3{
+                        font-size: 36px;
+                    }
+                    p{
+                        font-size: 14px;
+                        padding: 15px;
+                    }
+                }
+                .calculate{
+                    display: flex;
+                    justify-content: center;
+                    gap: 25px;
+                    padding-top: 50px;
+                    button{
+                        @extend%button;
+                        background-color: white;
+                        padding: 10px;
+                        width: 255px;
+                    }
+                    input{
+                        background-color: transparent;
+                        border: solid 1px white;
+                        width: 255px;
+                        padding: 12px;
+                        
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+    .home-sec4{
+        padding: 60px;
+        .container{
+            .course{
+                .par3{
+                    text-align: center;
+                    color: black;
+                    padding: 20px 0;
+                    h3{
+                        font-size: 36px;
+                    }
+                    p{
+                        font-size: 14px;
+                        padding: 15px;
+                    }
+                }
+                .cards{
+                    
+                    .card{
+                        padding-top: 40px;
+                        font-size: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 15px;
+                        justify-content: center;
+                        width: 30%;
+                        margin: 0 auto 0px auto;
+                        .post-rel{
+                            position: relative;
+                            img{
+                                width: 100%;
+                            }
+                            .post-abs{
+                                position: absolute;
+                                bottom: 8%;
+                                left: 6%;
+                                
+                                
+                                button{
+                                    background-color: $bgred-color;
+                                    padding: 15px;
+                                    width: 200px;
+                                    color: white;
+                                    border: none;
+                                }
+                            }
+                        }
+                        
+                        
+                        p{
+                            max-width: 229px;
+                        
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .home-sec5{
+        background-color: $bggrey-color;
+        padding: 1rem 0;
+        .container{
+            .revolution{
+                display: flex;
+                gap: 30px;
+                justify-content: center;
+                .rev{
+                        padding-top: 30px;
+                        display: flex;
+                        align-items: center;
+                        gap: 25px;
+                        justify-content: center;
+                    .par4{
+                        h3{
+                            font-size: 30px;
+                            color: $bgred-color;
+                            max-width: 177px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: $textgrey-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

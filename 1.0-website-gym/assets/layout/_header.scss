@@ -1,0 +1,45 @@
+header{
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  background-color: white;
+  .container{
+    .head{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 13px;
+      p{
+        width: 195px;
+      }
+      .num{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        p{
+          width: 100%;
+        }
+        i{
+          background-color: $bgred-color;
+          color: white;
+          padding: 35px;
+        }
+      }
+    }
+    .head2{
+      padding: 12px;
+      ul{
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        li{
+          a{
+            color: black;
+          }
+        }
+      }
+    }
+    
+  }
+  
+}

@@ -1,0 +1,85 @@
+.sec9{
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    background-color: rgb(34, 34, 34);
+    gap: 50px;
+    font-size: 20px;
+}
+
+.sec9 .info{
+    width: 250px;
+    
+}
+.sec9 .info h2{
+    width: 250px;
+    color: white;
+    
+}
+.sec9 .info p{
+    padding: 15px 0;
+    color: rgb(119, 119, 119);
+    
+}
+
+.sec9 .info2{
+    width: 250px;
+}
+
+.sec9 .info2 .wr{
+    color: rgb(119, 119, 119);
+}
+.sec9 .info2 .num{
+    color: #fab700;
+    padding: 15px 0;
+}
+.sec9 .info2 .num2{
+    color: #fab700;
+    
+}
+.sec9 .info2 h2{
+    width: 250px;
+    color: white;
+    
+}
+.sec9 .info3{
+    width: 400px;
+    
+}
+.sec9 .info3 p{
+    color: rgb(119, 119, 119);
+    padding: 20px 0;
+    
+}
+
+.sec9 .info3 h2{
+    width: 400px;
+    color: white;
+    
+}
+.sec9 .info3 input{
+    padding: 15px;
+    width: 350px;
+}
+
+.sec9 .parr{
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+}
+.sec9 .parr p{
+    color: rgb(119, 119, 119);
+    width: 500px;
+}
+.sec9 .parr ul{
+    display: flex;
+    gap: 7px;
+}
+
+.sec9 .parr ul li a{
+    color: white;
+    padding: 3px;
+}
+.sec9 .parr ul li i{
+    color: white;
+}
