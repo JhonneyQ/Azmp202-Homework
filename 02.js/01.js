@@ -102,3 +102,32 @@
     
 // }
 
+// let emek = +prompt("emek haqqi");
+// let meblegh = +prompt("istediyiniz mebleg");
+// let muddet = +prompt("muddet");
+
+// if(meblegh <=emek*10 ){
+//     if(muddet <= 36 && muddet>=24){
+//         let faiz = 17;
+//         let faiz2 = meblegh*faiz/100;
+//         let umumi = meblegh+faiz2
+//         console.log(umumi);
+//         console.log(umumi/faiz)
+//     }else if(muddet < 24 && muddet>=12){
+//         let faiz = 15;
+//         let faiz2 = meblegh*faiz/100;
+//         let umumi = meblegh+faiz2
+//         console.log(umumi);
+//         console.log(umumi/faiz)
+//     }else if(muddet < 12 && muddet>=0){
+//         let faiz = 13;
+//         let faiz2 = meblegh*faiz/100;
+//         let umumi = meblegh+faiz2
+//         console.log(umumi);
+//         console.log(umumi/faiz)
+//     }else{
+//         console.log("olmaz")
+//     }
+// }else{
+//     console.log("olmaz")
+// }
