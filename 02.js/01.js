@@ -11,6 +11,10 @@
 // }
 
 // let a = prompt("reqem1");
+
+
+
+
 // let b = prompt("reqem2");
 // let c = prompt("reqem3");
 
@@ -33,6 +37,8 @@
 // let c = +prompt("katet3");
 
 // // if(a*a+b*b == c)
+
+
 // if(a+b>c){
 //     console.log("duzbucaqli ucbucagdir");
 // }else{

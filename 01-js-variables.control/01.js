@@ -42,7 +42,7 @@
 
 // sum = 0
 // sum2 = 0
-// for (let index = 0; index < 100; index++) {
+// for (let index = 0; index < 100; index++) {5
 //     if(index%2==0){
 //         sum+=index
 
@@ -62,7 +62,7 @@
 // for (let index = 1; index < a.length; index++) {
 //     if(c>a[index]){
        
-//     }else{
+//     }else{y
 //         c=a[index]
 //     }
 //     if(b<a[index]){
@@ -87,3 +87,50 @@
     
 // }
 // console.log(count)
+
+
+// let a = ["alma", "banan", "qarpız", "ananaas", "nar"];
+// let longest = a[0]; // Start with the first element
+
+// for (let index = 1; index < a.length; index++) {
+//     if (a[index].length > longest.length) {
+//         longest = a[index]; // Update longest if the current string is longer
+//     }
+// }
+
+// console.log(longest); // Output the longest string
+
+
+// let array1 = [1, 3, 5, 7];
+
+// let arr = prompt("array daxil et")
+// let ber
+// for (let index = 0; index < array1.length; index++) {
+//     if(arr==array1[index]){
+//         ber = true
+//     }else{
+//         ber = false
+//     }
+// }
+
+// console.log(ber)
+
+
+const students = [
+    { name: "Ali", scores: [90, 85, 92] },
+    { name: "Mammal", scores: [75, 80, 85] },
+    { name: "Camil", scores: [90, 95, 85] },
+    { name: "Davud", scores: [100, 100, 100] }]
+let sum = 0
+for (let index = 0; index < students.length; index++) {
+    all = students[index].scores
+    for (let index = 0; index < all.length; index++) {
+        sum += all[index]
+        
+        
+    }
+    
+    
+}
+
+console.log(sum)
