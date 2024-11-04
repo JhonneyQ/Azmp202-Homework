@@ -130,7 +130,51 @@
         
 //     }
     
+// for (let index = 0; index < students.length; index++) {
+//     let sum = 0
+//     ortcox = 0
+//     yukkes = 0
+    
+//     for (let index2 = 0; index2 < students[index].scores.length; index2++) {
+//         sum += students[index].scores[index2]
+//         orta = sum/3
+        
+//     }
+//     if(orta>ortcox){
+//         ortcox = orta
+//     }
+//     if(orta>=90){
+//         console.log(orta)
+//     }
     
 // }
 
 // console.log(sum)
+
+    
+// }
+
+// console.log(ortcox)
+// console.log(yukkes)
+
+
+// let first = prompt("eded");
+
+// for (let index = 0; index < first.length; index++) {
+//     if(first[0]==first[first.length-1]){
+//         console.log("eynidir")
+//     }else{
+//         console.log("ferqlidir")
+//     }
+    
+// }
+
+// fruits = ["alma", "banan", "qarpız", " portağal  ", "ananas", "nar"];
+// let e = ""
+//   for (let index = 0; index < fruits.length; index++) {
+//     if(fruits[index].length>e.length){
+//         e = fruits[index]
+//     }
+    
+//   }
+//   console.log(e)
