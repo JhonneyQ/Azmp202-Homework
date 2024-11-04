@@ -62,9 +62,13 @@
 // console.log(sil([1, 2, 1, 2, 3],[1, 2, 3]))
 
 
-function  boy(a) {
-    a = a.split(" ").reverse().join(" ").toUpperCase()
-    return a
-}
+// function  boy(a) {
+//     a = a.split(" ").reverse().join(" ").toUpperCase()
+//     return a
+// }
 
-console.log(boy("hello world"))
+// console.log(boy("hello world"))
+
+let a = [12,56,96,47,65,15,20,5]
+a.sort((a,b) => a-b);
+console.log(a)
