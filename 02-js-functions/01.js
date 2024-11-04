@@ -22,11 +22,11 @@
 // console.log(sil([1, 2, 2, 3, 4, 4, 5]))
 
 // function bol(a) {
-//     const words = a.split(' ');
+//     const words = a.split(" ");
 //     for (let i = 0; i < words.length; i++) {
-//         words[0].toUpperCase()
+//         c = words[i].toUpperCase()
 //     }
-//     return words
+//     return c
 // }
 
 // console.log(a = prompt("cumle daxil et"))
@@ -46,21 +46,6 @@
 
 // console.log(say("salamammmam"))
 
-// function med(a){
-//     for (let index = 0; index < a.length; index++) {
-//         if(a.length%2 == 0){
-//             c = (a[a.length/2]+a[a.length/2-1])/2
-//         }else if(a.length%2 == 1){
-//             c = a[a.length/2]
-//         }
-        
-        
-//     }
-//     return c
-// }
-
-// console.log(med([1, 2, 1, 2, 3]))
-
 
 // function sil(a,b){
 //     for (let index = 0; index < a.length; index++) {
@@ -75,3 +60,11 @@
 // }
 
 // console.log(sil([1, 2, 1, 2, 3],[1, 2, 3]))
+
+
+function  boy(a) {
+    a = a.split(" ").reverse().join(" ").toUpperCase()
+    return a
+}
+
+console.log(boy("hello world"))
