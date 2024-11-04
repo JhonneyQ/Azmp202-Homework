@@ -116,21 +116,21 @@
 // console.log(ber)
 
 
-const students = [
-    { name: "Ali", scores: [90, 85, 92] },
-    { name: "Mammal", scores: [75, 80, 85] },
-    { name: "Camil", scores: [90, 95, 85] },
-    { name: "Davud", scores: [100, 100, 100] }]
-let sum = 0
-for (let index = 0; index < students.length; index++) {
-    all = students[index].scores
-    for (let index = 0; index < all.length; index++) {
-        sum += all[index]
+// const students = [
+//     { name: "Ali", scores: [90, 85, 92] },
+//     { name: "Mammal", scores: [75, 80, 85] },
+//     { name: "Camil", scores: [90, 95, 85] },
+//     { name: "Davud", scores: [100, 100, 100] }]
+// let sum = 0
+// for (let index = 0; index < students.length; index++) {
+//     all = students[index].scores
+//     for (let index = 0; index < all.length; index++) {
+//         sum += all[index]
         
         
-    }
+//     }
     
     
-}
+// }
 
-console.log(sum)
+// console.log(sum)
