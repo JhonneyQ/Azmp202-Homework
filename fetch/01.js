@@ -19,23 +19,30 @@ function drawcards(card){
         const address = document.createElement("p")
         const city = document.createElement("p")
         const btn = document.createElement("button")
+        const btn2 = document.createElement("button")
 
         cardDiv.className="card"
         par.className="par"
         address.className="name"
         city.className="title"
         btn.className="delete"
+        btn2.className="details"
 
         address.textContent=element.email
         city.textContent=element.password
         btn.textContent="delete"
+        btn2.textContent="details"
 
         btn.addEventListener("click", () => {
             deleteUser(element.id, cardDiv);
         });
+        btn2.addEventListener("click", () => {
+            showDetails(element);
+        });
+
 
         par.append(city, address,)
-        cardDiv.append(par,btn)
+        cardDiv.append(par,btn,btn2)
         cards.append(cardDiv)
 
         
@@ -54,5 +61,16 @@ function deleteUser(userId, cardDiv) {
         })
         .catch((err) => console.error("Error:", err));
 }
+
+function showDetails(user) {
+    alert(`
+        Name: ${user.username} 
+        Email: ${user.email}
+        password: ${user.password}
+        Phone: ${user.phone}
+    `);
+}
+
+
 
 getdata("users")
