@@ -5,10 +5,14 @@
 
 .cards{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
 
+.card{
+    width: 200px;
+}
 .loader {
     width: 48px;
     height: 48px;
