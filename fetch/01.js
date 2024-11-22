@@ -1,5 +1,6 @@
 const base_url = "https://fakestoreapi.com"
 const cards = document.querySelector(".cards")
+const spinner = document.querySelector(".loader");
 
 function getdata(endpoint) {
     fetch(`${base_url}/${endpoint}`)
@@ -7,6 +8,9 @@ function getdata(endpoint) {
 
         .then((data) => {
             drawcards(data)
+        })
+        .finally(()=>{
+            spinner.classList.add("d-none");
         })
 }
 
