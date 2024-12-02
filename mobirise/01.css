@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.postr{
+    position: relative;
+    margin: 0 auto;
+}
+
+.posta{
+    position: absolute;
+}
+
+
+.nav{
+    background-color: rgb(33, 108, 89);
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px ;
+    color: white;
+    align-items: center;
+}
+
+
+.nav h2{
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 25px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#iColor span{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+.heg{
+    height: 100vh;
+}
+
+.heg .par{
+    color: rgb(33, 108, 89);
+    top: 40% ; 
+}
+
+.heg .par h3{
+    font-size: 45px;
+}
+
+.images{
+    position: relative;
+    
+}
+
+.images .ima{
+    margin: 0 20%;
+}
+
+.images .post-img{
+    position: absolute;
+    top: 18%;
+    left: 0%;
+}
+
+.par-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 80px 0 80px 12%;
+}
+
+.par-all .par2 h2{
+    font-size: 45px;
+}
+
+.par-all .par2 img{
+    width: 230px;
+}
+
+.par-all .par2{
+    width: 400px;
+    color: rgb(33, 108, 89);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.alll{
+    position: absolute; 
+    left: 8%;  
+}
+
+.postc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.postc .parr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding: 30px;
+    color: rgb(27, 116, 94);
+}
+
+.postc  .hegg{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postc  .hegg img{
+    width: 100%;    
+}
+
+.postc  .hegg h3{
+    background-color: white;   
+    padding: 25px;
+    color: rgb(27, 116, 94);
+    font-size: 25px;
+}
+
+.img-all{
+    position: absolute;
+    
+}
+
+.img-all img{
+    width: 100%;
+}
+
+.sec{
+    position: relative;
+    
+    
+}
+
+.all-mission{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.mission{
+    background-color: rgb(27, 116, 94);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    
+}
+.mission p{
+    width: 300px;
+    
+    
+}
+
+.mission button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(196, 213, 192);
+    border: none;
+    color: rgb(27, 116, 94);
+    
+    
+}
+
+.chill-guy{
+    color: rgb(27, 116, 94);
+    padding-top: 60px;
+}
+
+.chill-guy .roww{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.chill-guy .roww i{
+    font-size: 40px;
+}
+
+.coll p{
+    width: 250px;
+}
+
