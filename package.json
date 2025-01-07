@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-helmet-async": "^2.0.5",
+    "sass": "^1.83.1",
+    "sweetalert2": "^11.15.10"
+  }
+}
