@@ -4,13 +4,15 @@ const {
     getAlldata,
     deleteData,
     postData,
-    editData
+    editData,
+    getAlldataById
 } = require("../controller/controller")
 
 const router = express.Router()
 
 
 router.get("/", getAlldata)
+router.get("/:id", getAlldataById)
 router.delete("/:id", deleteData)
 router.post("/",postData)
 router.put(":id",editData)

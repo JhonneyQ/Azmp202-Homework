@@ -1,14 +1,24 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import axios from "axios"
+import { Fcontext } from '../../../components/context'
+import { FaHeart } from "react-icons/fa";
+import { FaRegHeart } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
     const [cards, setCards] = useState([])
+    const { toggleFav, favorites } = useContext(Fcontext)
 
 
     const getAllData = async () => {
-        const res = await axios("http://localhost:8000/api/data")
-        setCards(res.data.data)
+        try {
+            const res = await axios("http://localhost:8000/api/data")
+            setCards(res.data.data)
+        } catch (error) {
+            console.log(error);
+
+        }
     }
 
 
@@ -37,6 +47,10 @@ const Home = () => {
                                 <h3>{p.title}</h3>
                                 <h4>{p.description}</h4>
                                 <p>{p.lor}</p>
+                                <button onClick={() => toggleFav(p)}>
+                                    {favorites.find((q) => q._id === p._id) ? <FaHeart /> : <FaRegHeart />}
+                                </button>
+                                <Link to={`details/${p._id}`}>Details</Link>
                             </div>
                         )
                     })}

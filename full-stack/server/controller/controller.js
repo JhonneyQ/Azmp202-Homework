@@ -11,6 +11,17 @@ const getAlldata = async (req, res) => {
     }
   }
 
+  const getAlldataById = async (req, res) => {
+    const {id} = req.params
+    try {
+        const products = await Model.findById(id)
+        res.status(200).json({data:products, message:"succesful"})
+    } catch (error) {
+        res.status(500).send({message:error.message})
+    }
+  }
+
+
 
 
   const deleteData = async (req, res) => {
@@ -25,7 +36,7 @@ const getAlldata = async (req, res) => {
 
   const postData = async (req, res) => {
     try {
-        const newProduct = Model({...res.body})
+        const newProduct = Model({...req.body})
         await newProduct.save()
         res.status(200).json({newData:newProduct, message:"succesful"})
     } catch (error) {
@@ -52,5 +63,6 @@ module.exports = {
     getAlldata,
     deleteData,
     postData,
-    editData
+    editData,
+    getAlldataById
 }
